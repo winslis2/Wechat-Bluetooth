@@ -1,0 +1,76 @@
+.robotPage
+{
+  width: 100%;
+}
+
+.layout{
+  width: 100%;
+  height: 1300rpx;
+  display: flex;
+  flex-direction: column;
+  margin: 3rpx;
+}
+.wrapper1{
+  display: flex;
+  width: 100%;
+  margin: 10rpx;
+  flex-wrap: wrap;
+}
+
+.button_style{
+  height: 80rpx;
+  color: white;
+  background: #3db3df; 
+}
+
+.wrapper2{
+  display: flex;
+  width: 100%;
+  height: 80%;
+  margin: 3rpx;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.slider1View{
+  display: flex;
+  width: 100%;
+  height: 200rpx;
+  justify-content: center;
+}
+.slider{
+  width: 60%;
+}
+
+.slider2View{
+  display: flex;
+  width: 100%;
+  height: 120rpx;
+  justify-content: center;
+}
+
+.slider3View{
+  display: flex;
+  width: 100%;
+  height: 120rpx;
+  justify-content: center;
+}
+
+.slider4View{
+  display: flex;
+  width: 100%;
+  height: 180rpx;
+  justify-content: center;
+}
+
+.slider5View{
+  display: flex;
+  width: 100%;
+  height: 120rpx;
+  justify-content: center;
+}
+
+.blank{
+  width: 100%;
+  height: 130rpx;
+}

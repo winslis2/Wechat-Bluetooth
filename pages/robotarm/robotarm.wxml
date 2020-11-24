@@ -1,0 +1,42 @@
+<view class='robotPage' style="background:#00CD00">
+ <view class='layout'>
+    <view class='wrapper1'>
+      <button class='button_style' bindtap='bluetoothClick'>{{buttonText}}</button>
+      <button class='button_style' bindtap='resetClick'>舵机回中</button>
+      <button class='button_style'>设置</button>
+    </view>
+    <view class='wrapper2' style="background-image:url('../../images/robotarm.png')">
+     <view class='blank'></view>
+      <view class="slider1View">
+        <view>松开</view>  
+        <slider class='slider' data-id='1'  bindchanging="sliderchange" min="500" max="2500" value="{{value1}}" block-color='#3db3df' activeColor='#3db3df' show-value/>
+        <view>闭合</view>  
+      </view>
+      <view class="slider2View">
+        <view>左转</view>  
+        <slider class='slider' data-id='2' bindchanging="sliderchange" min="500" max="2500" value="{{value2}}" block-color='#3db3df' activeColor='#3db3df'  show-value/>
+        <view>右转</view>  
+      </view>
+      <view class="slider3View">
+        <view>向下</view>  
+        <slider class='slider' data-id='3' bindchanging="sliderchange" min="500" max="2500" value="{{value3}}" block-color='#3db3df' activeColor='#3db3df'  show-value/>
+        <view>向上</view>  
+      </view>
+      <view class="slider4View">
+        <view>向前</view>  
+        <slider class='slider' data-id='4' bindchanging="sliderchange" min="500" max="2500" value="{{value4}}" block-color='#3db3df' activeColor='#3db3df'  show-value/>
+        <view>向后</view>  
+      </view>
+      <view class="slider5View">
+        <view>向前</view>  
+        <slider class='slider' data-id='5' bindchanging="sliderchange" min="500" max="2500" value="{{value5}}" block-color='#3db3df' activeColor='#3db3df'  show-value/>
+        <view>向后</view>  
+      </view>
+      <view class="slider5View">
+        <view>向左</view>  
+        <slider class='slider' data-id='6' bindchanging="sliderchange" min="500" max="2500" value="{{value6}}" block-color='#3db3df' activeColor='#3db3df'  show-value/>
+        <view>向右</view>  
+      </view>
+    </view>
+  </view>
+</view>
